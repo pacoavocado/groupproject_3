@@ -41,7 +41,7 @@ db.once('open', async () => {
       description:
         'pathway to the unknown',
       image: 'openDoor.gif',
-      price: 700.99,
+      price: 7.99,
       quantity: 20
     },
     {
@@ -50,7 +50,7 @@ db.once('open', async () => {
       description:
         'laser-eyed skull',
       image: 'skulls.gif',
-      price: 30.25,
+      price: 3.25,
       quantity: 50
     },
     {
@@ -59,7 +59,7 @@ db.once('open', async () => {
       description:
         'tropical illuminati head',
       image: 'randompyramidHead.gif',
-      price: 1500.99,
+      price: 15.99,
       quantity: 10
     },
     {
@@ -77,7 +77,7 @@ db.once('open', async () => {
       description:
         'basic human interaction, a hug',
       image: 'hugging.gif',
-      price: 199999.99,
+      price: 19.99,
       quantity: 1
     },
     {
@@ -103,7 +103,7 @@ db.once('open', async () => {
       description:
         'static head',
       image: 'head.gif',
-      price: 22.99,
+      price: 2.99,
       quantity: 5
     },
     {
@@ -112,7 +112,7 @@ db.once('open', async () => {
       description:
         'han solo and his lightstick',
       image: 'lightingWand.gif',
-      price: 97.99,
+      price: 125.50,
       quantity: 2
     },
     {
@@ -121,7 +121,7 @@ db.once('open', async () => {
       description:
         'midnight city',
       image: 'cityView.gif',
-      price: 5.99,
+      price: 9.99,
       quantity: 5
     }
   ]);
