@@ -85,7 +85,7 @@ function Detail() {
     <>
       {currentProduct && cart ? (
         <div className="container my-1">
-          <Link to="/">← Back to Products</Link>
+          <Link to="/">← Back dat Tina up</Link>
 
           <h2>{currentProduct.name}</h2>
 
@@ -98,7 +98,7 @@ function Detail() {
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
             >
-              Remove from Cart
+              Remove from Cart!
             </button>
           </p>
 
