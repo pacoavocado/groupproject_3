@@ -41,7 +41,7 @@ db.once('open', async () => {
       description:
         'pathway to the unknown',
       image: 'openDoor.gif',
-      price: 700.99,
+      price: 7.99,
       quantity: 20
     },
     {
@@ -50,7 +50,7 @@ db.once('open', async () => {
       description:
         'laser-eyed skull',
       image: 'skulls.gif',
-      price: 3.99,
+      price: 3.25,
       quantity: 50
     },
     {
@@ -59,7 +59,7 @@ db.once('open', async () => {
       description:
         'tropical illuminati head',
       image: 'randompyramidHead.gif',
-      price: 1500.99,
+      price: 15.99,
       quantity: 10
     },
     {
@@ -68,8 +68,8 @@ db.once('open', async () => {
       description:
         'midnight drive through space mountain',
       image: 'moreMountains.gif',
-      price: 399.99,
-      quantity: 30
+      price: 25.00,
+      quantity: 10
     },
     {
       name: 'T_A_I_N_T_E_D_*_L_O_V_E',
@@ -77,7 +77,7 @@ db.once('open', async () => {
       description:
         'basic human interaction, a hug',
       image: 'hugging.gif',
-      price: 199999.99,
+      price: 19.99,
       quantity: 1
     },
     {
@@ -104,7 +104,7 @@ db.once('open', async () => {
         'static head',
       image: 'head.gif',
       price: 2.99,
-      quantity: 1000
+      quantity: 5
     },
     {
       name: 'L_I_G_H_T_S_T_I_C_K_',
@@ -112,8 +112,8 @@ db.once('open', async () => {
       description:
         'han solo and his lightstick',
       image: 'lightingWand.gif',
-      price: 7.99,
-      quantity: 100
+      price: 125.50,
+      quantity: 2
     },
     {
       name: 'C_I_T_Y_S_C_A_P_E_',
@@ -122,7 +122,7 @@ db.once('open', async () => {
         'midnight city',
       image: 'cityView.gif',
       price: 9.99,
-      quantity: 600
+      quantity: 5
     }
   ]);
 
