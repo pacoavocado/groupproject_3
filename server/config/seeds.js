@@ -21,7 +21,7 @@ db.once('open', async () => {
       name: 'Tin of Cookies',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cityView.gif',
+      image: 'supermanButt.gif',
       category: categories[0]._id,
       price: 2.99,
       quantity: 500
@@ -85,7 +85,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'ravine.gif',
+      image: 'mountains.gif',
       price: 9.99,
       quantity: 100
     },
@@ -93,7 +93,7 @@ db.once('open', async () => {
       name: 'Spinning Top',
       category: categories[4]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'mountains.gif',
+      image: 'ravine.gif',
       price: 1.99,
       quantity: 1000
     },
@@ -120,7 +120,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'supermanButt.gif',
+      image: 'cityView.gif',
       price: 9.99,
       quantity: 600
     }
