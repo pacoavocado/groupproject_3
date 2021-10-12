@@ -18,108 +18,108 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'F_L_Y_I_N_G_*_G_U_Y',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'person flying through vaperwave landscape.',
       image: 'supermanButt.gif',
       category: categories[0]._id,
       price: 2.99,
-      quantity: 500
+      quantity: 5
     },
     {
-      name: 'Canned Coffee',
+      name: 'J_E_L_L_O_*_S_C_U_L_P_T_U_R_E',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'female sculpture',
       image: 'jellostatue.gif',
       category: categories[0]._id,
       price: 1.99,
-      quantity: 500
-    },
-    {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
-      description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'openDoor.gif',
-      price: 7.99,
       quantity: 20
     },
     {
-      name: 'Handmade Soap',
+      name: 'P_A_T_H_W_A_Y_',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'pathway to the unknown',
+      image: 'openDoor.gif',
+      price: 700.99,
+      quantity: 20
+    },
+    {
+      name: 'S_K_U_L_L_S_',
+      category: categories[1]._id,
+      description:
+        'laser-eyed skull',
       image: 'skulls.gif',
       price: 3.99,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'P_Y_R_A_M_I_D_*_H_E_A_D',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+        'tropical illuminati head',
       image: 'randompyramidHead.gif',
-      price: 14.99,
-      quantity: 100
+      price: 1500.99,
+      quantity: 10
     },
     {
-      name: 'Camera',
+      name: 'N_E_O_N_*_M_O_U_N_T_A_I_N',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        'midnight drive through space mountain',
       image: 'moreMountains.gif',
       price: 399.99,
       quantity: 30
     },
     {
-      name: 'Tablet',
+      name: 'T_A_I_N_T_E_D_*_L_O_V_E',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        'basic human interaction, a hug',
       image: 'hugging.gif',
-      price: 199.99,
-      quantity: 30
+      price: 199999.99,
+      quantity: 1
     },
     {
-      name: 'Tales at Bedtime',
+      name: 'M_I_D_N_I_T_E_*_H_E_A_T',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'heatwave mountains',
       image: 'mountains.gif',
       price: 9.99,
       quantity: 100
     },
     {
-      name: 'Spinning Top',
+      name: 'S_U_N_S_E_T',
       category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: 'sunset through tron',
       image: 'ravine.gif',
       price: 1.99,
       quantity: 1000
     },
     {
-      name: 'Set of Plastic Horses',
+      name: 'B_R_O_K_E_N_*_C_O_D_E',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+        'static head',
       image: 'head.gif',
       price: 2.99,
       quantity: 1000
     },
     {
-      name: 'Teddy Bear',
+      name: 'L_I_G_H_T_S_T_I_C_K_',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'han solo and his lightstick',
       image: 'lightingWand.gif',
       price: 7.99,
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'C_I_T_Y_S_C_A_P_E_',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'midnight city',
       image: 'cityView.gif',
       price: 9.99,
       quantity: 600
