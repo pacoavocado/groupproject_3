@@ -1,14 +1,14 @@
 import React from "react";
-import ProductList from "../components/ProductList";
-import CategoryMenu from "../components/CategoryMenu";
-import Cart from "../components/Cart";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="container">
-      <CategoryMenu />
-      <ProductList />
-      <Cart />
+      
+      <Link to="/market"><img className="landingImg" src="/images/landScaper.jpg" alt="Landing Page" /></Link>
+
+      
+      
     </div>
   );
 };
