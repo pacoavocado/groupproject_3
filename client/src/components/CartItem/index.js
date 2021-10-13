@@ -60,6 +60,7 @@ const CartItem = ({ item }) => {
             onClick={() => removeFromCart(item)}
           >
             🗑️
+            {/* new trash can icon */}
           </span>
         </div>
       </div>
