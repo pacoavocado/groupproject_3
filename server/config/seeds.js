@@ -5,10 +5,11 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Statues' },
-    { name: 'Space' },
-    { name: 'Laser Movement' },
-    { name: 'Miscellaneous' }
+    { name: '【﻿ＶＩＥＷ　ＡＬＬ】'},
+    { name: 'ＳＴΛＴＵΞＳ' },
+    { name: 'ᴚ∀˥˥Ǝ⊥SᴚƎ⊥NI' },
+    { name: 'ㄥ　卂　丂　乙' },
+    { name: '๓iŞ¢.' }
   ]);
 
   console.log('categories seeded');
@@ -21,7 +22,7 @@ db.once('open', async () => {
       description:
         'person flying through vaperwave landscape.',
       image: 'supermanButt.gif',
-      category: categories[0]._id,
+      category: categories[1]._id,
       price: 2.99,
       quantity: 5
     },
@@ -30,13 +31,13 @@ db.once('open', async () => {
       description:
         'female sculpture',
       image: 'jellostatue.gif',
-      category: categories[0]._id,
+      category: categories[1]._id,
       price: 1.99,
       quantity: 20
     },
     {
       name: 'P_A_T_H_W_A_Y_',
-      category: categories[3]._id,
+      category: categories[4]._id,
       description:
         'pathway to the unknown',
       image: 'openDoor.gif',
@@ -45,7 +46,7 @@ db.once('open', async () => {
     },
     {
       name: 'S_K_U_L_L_S_',
-      category: categories[2]._id,
+      category: categories[3]._id,
       description:
         'laser-eyed skull',
       image: 'skulls.gif',
@@ -54,7 +55,7 @@ db.once('open', async () => {
     },
     {
       name: 'P_Y_R_A_M_I_D_*_H_E_A_D',
-      category: categories[0]._id,
+      category: categories[1]._id,
       description:
         'tropical illuminati head',
       image: 'randompyramidHead.gif',
@@ -63,7 +64,7 @@ db.once('open', async () => {
     },
     {
       name: 'N_E_O_N_*_M_O_U_N_T_A_I_N',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description:
         'midnight drive through space mountain',
       image: 'moreMountains.gif',
@@ -72,7 +73,7 @@ db.once('open', async () => {
     },
     {
       name: 'T_A_I_N_T_E_D_*_L_O_V_E',
-      category: categories[0]._id,
+      category: categories[1]._id,
       description:
         'basic human interaction, a hug',
       image: 'hugging.gif',
@@ -81,7 +82,7 @@ db.once('open', async () => {
     },
     {
       name: 'M_I_D_N_I_T_E_*_H_E_A_T',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description:
         'heatwave mountains',
       image: 'mountains.gif',
@@ -90,7 +91,7 @@ db.once('open', async () => {
     },
     {
       name: 'S_U_N_S_E_T',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description: 'sunset through tron',
       image: 'ravine.gif',
       price: 1.99,
@@ -98,7 +99,7 @@ db.once('open', async () => {
     },
     {
       name: 'B_R_O_K_E_N_*_C_O_D_E',
-      category: categories[0]._id,
+      category: categories[1]._id,
       description:
         'static head',
       image: 'head.gif',
@@ -107,7 +108,7 @@ db.once('open', async () => {
     },
     {
       name: 'L_I_G_H_T_S_T_I_C_K_',
-      category: categories[2]._id,
+      category: categories[3]._id,
       description:
         'han solo and his lightstick',
       image: 'lightingWand.gif',
@@ -116,7 +117,7 @@ db.once('open', async () => {
     },
     {
       name: 'C_I_T_Y_S_C_A_P_E_',
-      category: categories[1]._id,
+      category: categories[2]._id,
       description:
         'midnight city',
       image: 'cityView.gif',
