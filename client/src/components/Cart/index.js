@@ -65,6 +65,7 @@ const Cart = () => {
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
           🛒
+          {/* new icon for check out */}
         </span>
       </div>
     );
@@ -75,7 +76,7 @@ const Cart = () => {
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
-      <h2>Shopping Cart</h2>
+      <h2>Digital Cart</h2>
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
@@ -83,12 +84,12 @@ const Cart = () => {
           ))}
 
           <div className="flex-row space-between">
-            <strong>Total: ${calculateTotal()}</strong>
+            <strong>Totes: ${calculateTotal()}</strong>
 
             {Auth.loggedIn() ? (
-              <button onClick={submitCheckout}>Checkout</button>
+              <button onClick={submitCheckout}>Purchase</button>
             ) : (
-              <span>(log in to check out)</span>
+              <span>(log in for Transaction)</span>
             )}
           </div>
         </div>
@@ -96,8 +97,9 @@ const Cart = () => {
         <h3>
           <span role="img" aria-label="shocked">
             😱
+            {/* new icon plz */}
           </span>
-          You haven't added anything to your cart yet!
+          BuY sOmEtHiNg!
         </h3>
       )}
     </div>

@@ -10,13 +10,13 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
-              Order History
+              Past Purch
             </Link>
           </li>
           <li className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}>
-              Logout
+              LEAVE
             </a>
           </li>
         </ul>
@@ -26,7 +26,7 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/signup">
-              Signup
+              Acct Create
             </Link>
           </li>
           <li className="mx-1">
@@ -43,8 +43,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          -Shop-Shop
+          <span role="img" aria-label="shopping bag"></span>
+          NFT_Market
         </Link>
       </h1>
 
