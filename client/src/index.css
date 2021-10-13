@@ -1,7 +1,7 @@
 :root {
   --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --secondary: #00ced1;
+  --tertiary: #9932cc;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
@@ -21,7 +21,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -34,9 +34,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  text-shadow: 4px 4px 8px deeppink, 0 0 1em darkviolet, 0 0 0.5em deepskyblue;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 10px 0;
   line-height: 1.25;
 }
 
@@ -89,6 +90,7 @@ header a {
 
 button {
   font-size: 1rem;
+  font-family: 'Inconsolata', monospace;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
