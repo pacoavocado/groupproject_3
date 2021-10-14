@@ -1,7 +1,7 @@
 :root {
   --primary: #000000;
-  --secondary: #00ced1;
-  --tertiary: #9932cc;
+  --secondary: #9932cc;
+  --tertiary: #00ced1;
   --light: #fafafa;
   --dark: #000000;
   --error: rgb(255, 0, 119);
