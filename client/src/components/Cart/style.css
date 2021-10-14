@@ -6,19 +6,15 @@
   max-width: 30%;
   max-height: 60%;
   background-color: var(--light);
+  text-shadow: 10px 10px 22px lime, 0 0 1em lime, 0 0 0.5em lime;
   overflow: auto;
-  padding: 0.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-  border-bottom-left-radius: 0.5rem;
-  background: #ff6042;
-  background: -moz-linear-gradient(top, #ff6042 0%, #277a9c 63%, #0a19c5 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #ff6042 0%,
-    #277a9c 63%,
-    #0a19c5 100%
-  );
-  background: linear-gradient(to bottom, #ff6042 0%, #277a9c 63%, #0a19c5 100%);
+  padding: .5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+  border-bottom-left-radius: .5rem;
+  background: #FF6042;
+background: -moz-linear-gradient(top, #FF6042 0%, #ff006a 63%, #8c00ff 100%);
+background: -webkit-linear-gradient(top, #FF6042 0%, #ff006a 63%, #8c00ff 100%);
+background: linear-gradient(to bottom, #FF6042 0%, #ff006a 63%, #8c00ff 100%);
 }
 
 .cart h2 {

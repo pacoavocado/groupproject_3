@@ -27,6 +27,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--light);
+  text-shadow: 4px 4px 8px deeppink, 0 0 1em darkviolet, 0 0 0.5em deepskyblue;
 }
 
 h1,
