@@ -26,12 +26,18 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/signup">
+
+
             ∀̶A̶cct/̦͓͕̟̝̺͒͗ͣ͌ͮ͒ͫ̃̄C̢̤̭͈͚̤̤̽rea🆃🅴
+
             </Link>
           </li>
           <li className="mx-1">
             <Link to="/login">
+
+
               _Log̐̂͐ͥi̖͙͓͎̫ͫn:
+
             </Link>
           </li>
         </ul>
@@ -44,7 +50,10 @@ function Nav() {
       <h1>
         <Link to="/">
           <span role="img" aria-label="shopping bag"></span>
+
+
           N̩̪̙̹͖̖̱̑͛ͨ͌̆FTͯ_*Ma͚͎̭̞̬̓̃r̩̣̬̼ͭͯk̜̯̳͙͋͒̐et
+
         </Link>
       </h1>
 
