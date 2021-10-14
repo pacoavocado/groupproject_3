@@ -60,7 +60,7 @@ function ProductList() {
           ))}
         </div>
       ) : (
-        <h3>LoL add some gifs, YO!</h3>
+        <h3>&#9750;LoL add some gifs, YO!</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
     </div>

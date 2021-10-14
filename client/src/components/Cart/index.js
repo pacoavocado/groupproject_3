@@ -96,7 +96,7 @@ const Cart = () => {
       ) : (
         <h3>
           <span role="img" aria-label="shocked">
-          😝
+          ⚞😝⚟
             {/* new icon plz */}
           </span>
           BuY sOmEtHiNg!
