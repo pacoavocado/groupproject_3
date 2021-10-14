@@ -43,7 +43,7 @@ function CategoryMenu() {
 
   return (
     <div>
-      <h2>NFT_Category:</h2>
+      <h2>⚡NF͇T͇y͇p͇eŝ̗̯̣͚͔⚡̷:</h2>
       {categories.map((item) => (
         <button
           key={item._id}
