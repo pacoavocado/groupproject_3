@@ -64,7 +64,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
-          🛒
+        🖭
           {/* new icon for check out */}
         </span>
       </div>
@@ -89,14 +89,14 @@ const Cart = () => {
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Purchase</button>
             ) : (
-              <span>(log in for Transaction)</span>
+              <span>(log in doy!!!)</span>
             )}
           </div>
         </div>
       ) : (
         <h3>
           <span role="img" aria-label="shocked">
-            😱
+          😝
             {/* new icon plz */}
           </span>
           BuY sOmEtHiNg!

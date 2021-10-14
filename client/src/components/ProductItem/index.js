@@ -49,7 +49,7 @@ function ProductItem(item) {
         <p>{name}</p>
       </Link>
       <div>
-        <div>{quantity} {pluralize("item", quantity)} remaining</div>
+        <div>{quantity} {pluralize("NFT'", quantity)} available</div>
         <span>${price}</span>
       </div>
       <button onClick={addToCart}>BuY_nFt</button>
