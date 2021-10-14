@@ -5,7 +5,7 @@ db.once("open", async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: "【﻿ＶＩＥＷ　ＡＬＬ】" },
+    { name: "【﻿ＶＩＥＷ N O N E】" },
     { name: "ＳＴΛＴＵΞＳ" },
     { name: "ᴚ∀˥˥Ǝ⊥SᴚƎ⊥NI" },
     { name: "ㄥ　卂　丂　乙" },
