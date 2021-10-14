@@ -32,9 +32,10 @@ function Success() {
   return (
     <div>
       <Jumbotron>
-        <h1>Triumph!</h1>
-        <h2>You Rich!</h2>
-        <h2>... redirecting to NFT_Market</h2>
+        <h1>Tri̶u̶m̶p̶
+̶h!</h1>
+        <h2>Yȏ̾ͤ͛ͨ̋u̸̔ͣͨ͐͌ ͬ̚͝͡Rͫ͋ͥḯ̔̑̓ͭ̎͟͜͞ch!</h2>
+        <h2>... rediṛ͎̼͌ͤ̉é͕̪̬̬c͕̱̜̗t͓͌̏ing t̴̖̞̩̠̘͉̠ͯ̃̈́o N🅵🆃_🅼🅰🆁ket̴̖̞̩̠̘͉̠ͯ̃̈́</h2>
       </Jumbotron>
     </div>
   );
