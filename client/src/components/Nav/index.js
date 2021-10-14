@@ -26,12 +26,12 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/signup">
-              Acct/Create
+              Acct Create
             </Link>
           </li>
           <li className="mx-1">
             <Link to="/login">
-              _Login:
+              Login
             </Link>
           </li>
         </ul>
@@ -44,7 +44,7 @@ function Nav() {
       <h1>
         <Link to="/">
           <span role="img" aria-label="shopping bag"></span>
-          NFT_*Market
+          NFT_Market
         </Link>
       </h1>
 
