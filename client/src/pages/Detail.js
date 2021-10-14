@@ -92,13 +92,13 @@ function Detail() {
           <p>{currentProduct.description}</p>
 
           <p>
-            <strong>Co$t:</strong>${currentProduct.price}{' '}
+            <strong>CO̰͕̼̩̦͟$͏͖̩̳̘̦͠T:</strong>${currentProduct.price}{' '}
             <button onClick={addToCart}>Git_It</button>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
             >
-              Take it out!
+              T͉̂͐̎̄aḱé i𝕥 ̴O̴u̴t!
             </button>
           </p>
 

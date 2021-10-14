@@ -49,7 +49,7 @@ function ProductItem(item) {
         <p>{name}</p>
       </Link>
       <div>
-        <div>{quantity} {pluralize("NFT'", quantity)} available</div>
+        <div>{quantity} {pluralize("NF̸͞͏̩͓T'", quantity)} a̶v̶a̶ila͆b̶̛͐̾̄̄le</div>
         <span>${price}</span>
       </div>
       <button onClick={addToCart}>BuY_nFt</button>
