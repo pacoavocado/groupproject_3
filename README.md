@@ -28,23 +28,26 @@ Built with
 
 # Appearance
 
-<img src="Screen Shot 2021-09-20 at 10.54.27 AM.png" alt="HomePage">
+<img src="client/public/images/sc1.png" alt="HomePage">
+<img src="client/public/images/sc2.png" alt="HomePage2">
+<img src="client/public/images/sc3.png" alt="AddCart">
 
 # Links
 
 [GitHub Link](https://github.com/pacoavocado/groupproject_3)
 
-[Heroku Link](https://pure-savannah-55760.herokuapp.com/)
+[Heroku Link](https://stark-wildwood-90610.herokuapp.com/)
 
 # Contributors
 
-[Tina Pham ](https://github.com/tpham912)
+[Tina Pham](https://github.com/tpham912)
 
-[Micah C Con](https://github.com/pacoavocado)
+[Micah C Conn](https://github.com/pacoavocado)
 
 [Gulshun Eswani](https://github.com/geswani1)
 
 [Patrick Price](https://github.com/Damerian00)
+
 # License
 
 Distributed under the MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
